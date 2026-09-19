@@ -10,3 +10,4 @@ console.log(table2);
 
 
 console.log(table2.length);
+
