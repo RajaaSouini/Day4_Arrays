@@ -1,0 +1,101 @@
+# Jour 4 — Tableaux : catalogue complet des défis
+
+**Thèmes :** création, indexation, modification, parcours, recherche, comptage et transformation manuelle de tableaux.  
+**Règle :** utiliser JavaScript de base et des boucles. Lorsque c'est précisé, ne pas utiliser des méthodes comme `filter`, `splice` ou `Set`.
+
+## Bases des tableaux
+
+### 1. Créer et afficher un tableau — Facile
+**Contexte :** Création d'un tableau avec des crochets.  
+**Description :** Crée un tableau avec trois aliments préférés, puis affiche-le.  
+**Exemple de sortie :**
+```text
+["pizza", "sushi", "tacos"]
+```
+
+### 2. Accéder par index — Facile
+**Contexte :** Les index commencent à `0`.  
+**Description :** Avec `[10, 20, 30]`, affiche le deuxième élément.  
+**Exemple de sortie :**
+```text
+20
+```
+
+### 3. Ajouter un élément avec `push` — Facile
+**Contexte :** `.push()` ajoute une valeur à la fin d'un tableau.  
+**Description :** Avec `[1, 2]`, ajoute `3` puis affiche le tableau.  
+**Exemple de sortie :**
+```text
+[1, 2, 3]
+```
+
+### 4. Retirer le dernier élément avec `pop` — Facile
+**Contexte :** `.pop()` retire et retourne le dernier élément.  
+**Description :** Avec `[5, 6, 7]`, affiche la valeur retirée et le tableau restant.  
+**Exemple de sortie :**
+```text
+7
+[5, 6]
+```
+
+### 5. Modifier un élément par son index — Moyen
+**Contexte :** Une case de tableau peut être remplacée grâce à son index.  
+**Description :** Remplace `"green"` par `"yellow"` dans `["red", "green", "blue"]`.  
+**Exemple de sortie :**
+```text
+["red", "yellow", "blue"]
+```
+
+### 6. Accéder au dernier élément de manière générique — Moyen
+**Contexte :** Le dernier index valide est toujours `array.length - 1`.  
+**Description :** Affiche le dernier élément sans connaître la taille exacte du tableau.  
+**Exemple de sortie :**
+```text
+dernier élément
+```
+
+### 7. Modifier un tableau déclaré avec `const` — Moyen
+**Contexte :** `const` bloque la réaffectation de la variable, pas la modification du contenu du tableau.  
+**Description :** Explique pourquoi `const arr = [1, 2]; arr.push(3);` fonctionne et pourquoi `arr = [4, 5]` échoue.  
+**Exemple de sortie :**
+```text
+[1, 2, 3]
+```
+
+### 8. Construire un tableau avec une boucle — Moyen
+**Contexte :** Partir d'un tableau vide et ajouter une valeur à chaque tour.  
+**Description :** Construis les carrés de 1 à 5 avec une boucle et `.push()`.  
+**Exemple de sortie :**
+```text
+[1, 4, 9, 16, 25]
+```
+
+### 9. Échanger deux éléments — Difficile
+**Contexte :** Une variable temporaire évite d'écraser une valeur pendant l'échange.  
+**Description :** Échange le premier et le dernier élément de `[1, 2, 3, 4]`.  
+**Exemple de sortie :**
+```text
+[4, 2, 3, 1]
+```
+
+### 10. Retirer une valeur — Difficile
+**Contexte :** Construire un nouveau tableau en ignorant la valeur ciblée.  
+**Description :** Retire `30` de `[10, 20, 30, 40]` sans `filter()` ni `splice()`.  
+**Exemple de sortie :**
+```text
+[10, 20, 40]
+```
+
+### 11. Insérer à un index précis — Difficile
+**Contexte :** Copier les valeurs dans un nouveau tableau et ajouter la nouvelle au bon moment.  
+**Description :** Insère `3` entre `2` et `4` dans `[1, 2, 4, 5]`, sans `.splice()`.  
+**Exemple de sortie :**
+```text
+[1, 2, 3, 4, 5]
+```
+
+### 12. Rotation manuelle — Extrême
+**Contexte :** Sauvegarder le premier élément, copier les suivants, puis ajouter l'élément sauvegardé à la fin.  
+**Description :** Transforme `[1, 2, 3, 4, 5]` en une rotation à gauche, sans `shift()`.  
+**Exemple de sortie :**
+... (206lignes restantes)
