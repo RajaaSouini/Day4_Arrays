@@ -6,4 +6,7 @@ for(let i = 0 ; i < table.length ; i++){
 }
 
 console.log(table2);
+
+
+
 console.log(table2.length);
