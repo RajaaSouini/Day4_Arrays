@@ -1,8 +1,9 @@
 //rotation manuelle
 let table = [1 ,2 , 3 ,4 , 5];
 let table2 = [];
-for(let i = 0 ; i <= table.length ; i++){
-    table2[i] = table[table.length-i];
+for(let i = 0 ; i < table.length ; i++){
+    table2[i] = table[(table.length-1)-i];
 }
 
 console.log(table2);
+console.log(table2.length);
