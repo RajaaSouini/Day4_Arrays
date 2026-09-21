@@ -7,4 +7,4 @@ for (i in table){
     }
 }
 
-console.log(exist)
+console.log(exist);

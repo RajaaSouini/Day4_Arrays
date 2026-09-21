@@ -1,9 +1,9 @@
 let table = [4, 15, 8, 23, 1];
 let table2 = [];
 
-for (const valeur of table) {
-    if (valeur > 10) {
-        table2.push(valeur);
+for (i = 0 ; i< table.length ; i++) {
+    if (table[i] > 10) {
+        table2.push(table[i]);
     }
 }
 
