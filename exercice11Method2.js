@@ -15,4 +15,4 @@ while(i < table.length-1 && table[i] > table[i+1]){
 
 
 
-console.log(table);
+console.log(table); 

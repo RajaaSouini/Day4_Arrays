@@ -10,6 +10,7 @@ for (let i = 0 ; i < table.length ; i++){
 
 for(let j = indice ;j < table.length ; j++ ){
    table[j] = table[j+1];
+   console.log(table);
 }
 table.pop();
 
