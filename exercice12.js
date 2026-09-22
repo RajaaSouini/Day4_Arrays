@@ -13,7 +13,7 @@ for(j = 0 ; j < m ; j++){
     }
 
     table[table.length -1] = temp;
-    console.log(table)
+    console.log(table);
 }
 
 console.log(table);
