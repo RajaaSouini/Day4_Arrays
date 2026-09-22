@@ -1,6 +1,9 @@
 //echangeons le premier et le dernier element d un tbleau
 let table = [1 ,2 ,3 ,4];
 
+
+
+/*
 let a = table.shift();
 let b = table.pop();
 let c ; 
@@ -10,7 +13,7 @@ b = c;
 table.unshift(a);
 table.push(b);
 
-console.log(table);
+console.log(table); */
 
 /*
 

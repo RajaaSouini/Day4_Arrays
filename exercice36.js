@@ -1,4 +1,4 @@
-let table = [1, 1, 2, 2, 2, 3, 1, 1 , 1 , 1];
+let table = [1, 1, 2, 2, 2,2 ,2 ,2, 3, 1, 1 , 1 , 1];
 let a = table[0];
 let count = 1;
 let max = 1;
