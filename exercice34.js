@@ -21,4 +21,5 @@ for(i = 0 ; i<table.length ; i++){
        table3.push(table[i]);
     }
 }
+
 console.log(table3);
