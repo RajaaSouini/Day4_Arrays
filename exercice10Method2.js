@@ -10,17 +10,4 @@ for (i = 0 ; i< table.length ; i++){
     }
 }
 
-console.log(index);
-
-
-
-
-for (let i = 0; i < table.length; i++) {
-  
-  if (table[i] !== cible) {
-   
-    nouveauTableau[nouveauTableau.length] = table[i];
-  }
-}
-
-console.log(nouveauTableau);
+console.log(index); 

@@ -13,4 +13,3 @@ let intResult = parseInt(result2);
 //faire le role de Math.round(result * 100)/100  manuellement 
 
 console.log(intResult/100);
-

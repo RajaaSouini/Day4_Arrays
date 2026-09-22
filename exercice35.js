@@ -6,11 +6,9 @@ for (i in table){
     if(table[i] % 2 === 0){
         tablePair.push(table[i]);
     }
-}
-
-for (i in table){
     if(table[i] % 2 !== 0){
         tableImpair.push(table[i]);
     }
 }
+
 console.log(tablePair , tableImpair);
