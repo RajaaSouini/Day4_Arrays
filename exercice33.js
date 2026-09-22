@@ -3,7 +3,7 @@ let table2 = [];
 let x;
 for(i = 0 ; i<table.length ; i++){
 
-    let exist = false;
+    let exist = false;  
 
     for(j = 0 ; j< table2.length ; j++){
         if (table[i] === table2[j]){
@@ -16,6 +16,7 @@ for(i = 0 ; i<table.length ; i++){
        table2.push(table[i]);
     }
 }
+
 
 let max = table2[0];
 for (i in table2){
