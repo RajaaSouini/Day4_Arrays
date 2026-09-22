@@ -1,6 +1,11 @@
 //echangeons le premier et le dernier element d un tbleau
 let table = [1 ,2 ,3 ,4];
 
+let temp = table[0];
+table[0] = table[table.length-1];
+table[table.length-1] = temp;
+
+console.log(table);
 
 
 /*
