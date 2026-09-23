@@ -16,6 +16,7 @@ for(i = 0 ; i<table.length ; i++){
        table2.push(table[i]);
     }
 }
+console.log(table2)
 
 
 let max = table2[0];
